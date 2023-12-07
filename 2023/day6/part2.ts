@@ -27,9 +27,6 @@ function solution(lines: string[]) {
         .filter((x) => x !== '' && x !== ' ')
         .join('');
 
-    console.log(time);
-    console.log(distance);
-
     const nTime = Number(time);
     const nDistance = Number(distance);
 
